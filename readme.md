@@ -1,18 +1,18 @@
 # Tumblr Boilerplate
 
-### Tumblr のテーマを勢いよく作るためのHTMLテンプレート
+Tumblr Boilerplate is a naked boilerplate for tumblr theme development. If you want to make original tumblr theme with it, just write CSS.
 
-Tumblrテーマを制作するときに使える、基本的な構造のHTMLテンプレートです。これにCSSを別途書くだけで、ひと通りの機能を持ったTumblrテーマが作れます。[ZEN テーマ](http://sanographix.github.com/tumblr/zen/)がベースです。
+## Features
 
-### 特徴
-
-* 全投稿タイプに対応
-* OGP 設定済
-* Like & Reblog ボタン設置済
-* ソーシャルボタン設置済
-
+* Supports all post-types
+* Supports OGP
+* Like & Reblog buttons
 
 # Changelog
+
+### 1.1.3 (2014/04/02)
+
+* `{BlogURL}`使えるようになったので`blog domain`の項目なくす
 
 ### 1.1.2 (2014/03/27)
 
@@ -33,7 +33,6 @@ Tumblrテーマを制作するときに使える、基本的な構造のHTMLテ�
 ### 1.0.0 (2013/3/26)
 
 * 公開
-
 
 ## Author
 
