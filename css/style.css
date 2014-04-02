@@ -1921,6 +1921,20 @@ span.base {
 .footer h2 {
   margin: 0;
 }
+.social-buttons {
+  margin-bottom: 2em;
+}
+.social-buttons div,
+.social-buttons a,
+.social-buttons iframe {
+  display: inline-block;
+  vertical-align: middle !important;
+  margin-right: 4px !important;
+}
+.social-buttons .fb-like {
+  width: auto !important;
+  display: inline-block !important;
+}
 /*--------------------------------------------------------------
 
       Media Queries - Retina Display
