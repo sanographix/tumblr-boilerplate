@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------
+
+      Media Queries - Retina Display
+
+--------------------------------------------------------------*/
+
+// Retina のデバイス全部に出す
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(            min-resolution: 2dppx) {
+
+}
+
+// Retina かつ iPad 以上のときに出す
+@media
+(-webkit-min-device-pixel-ratio: 2) and (min-device-width: 768px),
+(            min-resolution: 2dppx) and (min-device-width: 768px) {
+
+}
+
+// Retina かつ PC のときだけに出す
+@media
+(-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1025px),
+(            min-resolution: 2dppx) and (min-device-width: 1025px) {
+
+}
+
+
+/*--------------------------------------------------------------
+
+      Media Queries - Tablet
+
+--------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1040px) {
+
+.content {
+    width: 93.75%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
+body {
+  font-size: 90%;
+}
+
+}
+
+
+/*--------------------------------------------------------------
+
+      Media Queries - Small Tablet & Smartphone
+
+--------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+.content {
+    width: 93.75%;
+    word-wrap: break-word;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.header {
+    h2 {
+        font-size: 340%;
+    }
+}
+
+.main {
+    h1 {
+        font-size: 160%;
+    }
+}
+
+.cogs {
+    .cog1 {
+        right: -100px;
+        bottom: -200px;
+        font-size: 600px;
+    }
+}
+
+}
+
+
+/*--------------------------------------------------------------
+
+      Media Queries - Smartphone
+
+--------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+
+.main .circle {
+    padding: 1em;
+}
+
+.cogs {
+    .cog1 {
+        right: -150px;
+        bottom: -200px;
+        font-size: 500px;
+    }
+}
+
+}
