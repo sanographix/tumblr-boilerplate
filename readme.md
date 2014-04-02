@@ -2,6 +2,8 @@
 
 Tumblr Boilerplate is a naked boilerplate for tumblr theme development. If you want to make original tumblr theme with it, just write CSS.
 
+<http://sanographix.github.io/tumblr-boilerplate/>
+
 ## Features
 
 * Supports all post-types
